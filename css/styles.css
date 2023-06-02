@@ -15,12 +15,19 @@
 }
 
 body {
+    max-width: 1440px;
     font-family: "Roboto", sans-serif;
     color: var(--text);
     background-color: var(--white-bg)
+    
 }
 
 /* header------------ */
+
+.header-bg{
+    box-sizing: border-box;
+    background-color: var(--white-bg);
+}
 .link {
     text-decoration: none;
 }
