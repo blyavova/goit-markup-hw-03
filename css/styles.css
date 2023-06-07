@@ -46,6 +46,7 @@ main {
 
 .link {
     text-decoration: none;
+    display: inline-block
 }
 
 .link:is(:hover, :focus) {
@@ -391,6 +392,7 @@ header {
 
 .footer-logo-white {
     color: var(--cloud);
+    margin-bottom: 16px
 }
 
 .footer-paragraph {
